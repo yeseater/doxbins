@@ -1,0 +1,497 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Top = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local PlayerName = Instance.new("TextLabel")
+local Avatar = Instance.new("ImageLabel")
+local Welcome = Instance.new("TextLabel")
+local Round = Instance.new("ImageLabel")
+local Round2 = Instance.new("ImageLabel")
+local RGB1 = Instance.new("Frame")
+local RGB2 = Instance.new("Frame")
+local RGB3 = Instance.new("Frame")
+local RGB4 = Instance.new("Frame")
+local Contributor = Instance.new("TextLabel")
+local Dev = Instance.new("TextLabel")
+local Con = Instance.new("TextLabel")
+local Doxxables = Instance.new("ImageLabel")
+local ForDev = Instance.new("ImageLabel")
+local DoxName = Instance.new("TextLabel")
+local Yutelake = Instance.new("ImageLabel")
+local ForCon = Instance.new("ImageLabel")
+local YutName = Instance.new("TextLabel")
+local Display = Instance.new("TextLabel")
+local Extension = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local RGB2_2 = Instance.new("Frame")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.499000013, -313, -0.31099999, -194)
+Main.Size = UDim2.new(0, 627, 0, 388)
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Top.BorderSizePixel = 0
+Top.Position = UDim2.new(-0.00084349222, 0, 0, 0)
+Top.Size = UDim2.new(0, 627, 0, 54)
+Top.Font = Enum.Font.SourceSans
+Top.Text = ""
+Top.TextColor3 = Color3.fromRGB(255, 255, 255)
+Top.TextSize = 28.000
+Top.TextWrapped = true
+Top.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel.Parent = Top
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.0495999977, 0, 0.111111104, 0)
+TextLabel.Size = UDim2.new(0, 123, 0, 15)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "DOXBINS"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.0845295042, 0, 0.907216489, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Version 0.000.01"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = Main
+PlayerName.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+PlayerName.BorderSizePixel = 0
+PlayerName.Position = UDim2.new(0.167163461, 0, 0.206185564, 0)
+PlayerName.Size = UDim2.new(0, 271, 0, 44)
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.LineHeight = 1.440
+PlayerName.Text = "Username"
+PlayerName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.TextSize = 32.000
+
+Avatar.Name = "Avatar"
+Avatar.Parent = Main
+Avatar.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Avatar.BorderSizePixel = 0
+Avatar.Position = UDim2.new(0.0592783503, 0, 0.162371129, 0)
+Avatar.Size = UDim2.new(0, 61, 0, 61)
+Avatar.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Main
+Welcome.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.182948545, 0, 0.162371129, 0)
+Welcome.Size = UDim2.new(0, 250, 0, 17)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Welcome,"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextSize = 14.000
+
+Round.Name = "Round"
+Round.Parent = Main
+Round.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Round.BackgroundTransparency = 1.000
+Round.BorderSizePixel = 0
+Round.Position = UDim2.new(0.0592783503, 0, 0.162371129, 0)
+Round.Size = UDim2.new(0, 61, 0, 61)
+Round.Image = "http://www.roblox.com/asset/?id=9035292259"
+
+Round2.Name = "Round 2"
+Round2.Parent = Main
+Round2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Round2.BackgroundTransparency = 1.000
+Round2.BorderSizePixel = 0
+Round2.Position = UDim2.new(0.106864065, 0, 0.162371129, 0)
+Round2.Size = UDim2.new(0, 61, 0, 61)
+Round2.Image = "http://www.roblox.com/asset/?id=9035315144"
+
+RGB1.Name = "RGB1"
+RGB1.Parent = Main
+RGB1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RGB1.BorderSizePixel = 0
+RGB1.Position = UDim2.new(-0.0104129193, 0, 0.0154639175, 0)
+RGB1.Size = UDim2.new(0, 6, 0, 388)
+RGB1.ZIndex = -100000
+
+RGB2.Name = "RGB2"
+RGB2.Parent = Main
+RGB2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RGB2.BorderSizePixel = 0
+RGB2.Position = UDim2.new(-0.0104129193, 0, -0.0154639175, 0)
+RGB2.Size = UDim2.new(0, 639, 0, 59)
+RGB2.ZIndex = -100000
+
+RGB3.Name = "RGB3"
+RGB3.Parent = Main
+RGB3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RGB3.BorderSizePixel = 0
+RGB3.Position = UDim2.new(0.999156415, 0, 0, 0)
+RGB3.Size = UDim2.new(0, 6, 0, 394)
+RGB3.ZIndex = -100000
+
+RGB4.Name = "RGB4"
+RGB4.Parent = Main
+RGB4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RGB4.BorderSizePixel = 0
+RGB4.Position = UDim2.new(-0.0104129193, 0, 1, 0)
+RGB4.Size = UDim2.new(0, 639, 0, 6)
+RGB4.ZIndex = -100000
+
+Contributor.Name = "Contributor"
+Contributor.Parent = Main
+Contributor.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Contributor.BorderSizePixel = 0
+Contributor.Position = UDim2.new(0.568534434, 0, 0, 0)
+Contributor.Size = UDim2.new(0, 270, 0, 388)
+Contributor.Font = Enum.Font.SourceSans
+Contributor.Text = ""
+Contributor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Contributor.TextSize = 28.000
+Contributor.TextWrapped = true
+Contributor.TextXAlignment = Enum.TextXAlignment.Left
+
+Dev.Name = "Dev"
+Dev.Parent = Contributor
+Dev.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dev.BackgroundTransparency = 1.000
+Dev.BorderSizePixel = 0
+Dev.Position = UDim2.new(0.268918514, 0, 0.095647186, 0)
+Dev.Size = UDim2.new(0, 123, 0, 15)
+Dev.Font = Enum.Font.SourceSans
+Dev.Text = "Developer"
+Dev.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dev.TextScaled = true
+Dev.TextSize = 14.000
+Dev.TextWrapped = true
+
+Con.Name = "Con"
+Con.Parent = Contributor
+Con.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Con.BackgroundTransparency = 1.000
+Con.Position = UDim2.new(0.129629627, 0, 0.319587618, 0)
+Con.Size = UDim2.new(0, 200, 0, 50)
+Con.Font = Enum.Font.SourceSans
+Con.Text = "Contributor"
+Con.TextColor3 = Color3.fromRGB(255, 255, 255)
+Con.TextSize = 14.000
+
+Doxxables.Name = "Doxxables"
+Doxxables.Parent = Main
+Doxxables.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Doxxables.BorderSizePixel = 0
+Doxxables.Position = UDim2.new(0.599948227, 0, 0.162371129, 0)
+Doxxables.Size = UDim2.new(0, 61, 0, 61)
+Doxxables.Image = "http://www.roblox.com/asset/?id=9035537624"
+
+ForDev.Name = "ForDev"
+ForDev.Parent = Main
+ForDev.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ForDev.BackgroundTransparency = 1.000
+ForDev.BorderSizePixel = 0
+ForDev.Position = UDim2.new(0.599948227, 0, 0.162371129, 0)
+ForDev.Size = UDim2.new(0, 61, 0, 61)
+ForDev.Image = "http://www.roblox.com/asset/?id=9035292259"
+ForDev.ImageColor3 = Color3.fromRGB(188, 188, 188)
+
+DoxName.Name = "DoxName"
+DoxName.Parent = Main
+DoxName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DoxName.BackgroundTransparency = 1.000
+DoxName.BorderSizePixel = 0
+DoxName.Position = UDim2.new(0.697169065, 0, 0.200574413, 0)
+DoxName.Size = UDim2.new(0, 141, 0, 30)
+DoxName.Font = Enum.Font.SourceSans
+DoxName.Text = "@doxxables"
+DoxName.TextColor3 = Color3.fromRGB(255, 255, 255)
+DoxName.TextScaled = true
+DoxName.TextSize = 14.000
+DoxName.TextWrapped = true
+
+Yutelake.Name = "Yutelake"
+Yutelake.Parent = Main
+Yutelake.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Yutelake.BorderSizePixel = 0
+Yutelake.Position = UDim2.new(0.599948227, 0, 0.448453605, 0)
+Yutelake.Size = UDim2.new(0, 61, 0, 61)
+Yutelake.Image = "http://www.roblox.com/asset/?id=9035537286"
+
+ForCon.Name = "ForCon"
+ForCon.Parent = Main
+ForCon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ForCon.BackgroundTransparency = 1.000
+ForCon.BorderSizePixel = 0
+ForCon.Position = UDim2.new(0.599948227, 0, 0.448453605, 0)
+ForCon.Size = UDim2.new(0, 61, 0, 61)
+ForCon.Image = "http://www.roblox.com/asset/?id=9035292259"
+ForCon.ImageColor3 = Color3.fromRGB(188, 188, 188)
+
+YutName.Name = "YutName"
+YutName.Parent = Main
+YutName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+YutName.BackgroundTransparency = 1.000
+YutName.BorderSizePixel = 0
+YutName.Position = UDim2.new(0.697169065, 0, 0.486656904, 0)
+YutName.Size = UDim2.new(0, 141, 0, 30)
+YutName.Font = Enum.Font.SourceSans
+YutName.Text = "@yutelake"
+YutName.TextColor3 = Color3.fromRGB(255, 255, 255)
+YutName.TextScaled = true
+YutName.TextSize = 14.000
+YutName.TextWrapped = true
+
+Display.Name = "Display"
+Display.Parent = Main
+Display.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Display.BackgroundTransparency = 1.000
+Display.BorderSizePixel = 0
+Display.Position = UDim2.new(0.674840569, 0, 0.563976467, 0)
+Display.Size = UDim2.new(0, 135, 0, 16)
+Display.Font = Enum.Font.SourceSans
+Display.Text = "A.K.A dr1zy"
+Display.TextColor3 = Color3.fromRGB(255, 255, 255)
+Display.TextScaled = true
+Display.TextSize = 14.000
+Display.TextWrapped = true
+
+Extension.Name = "Extension"
+Extension.Parent = Main
+Extension.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Extension.BorderSizePixel = 0
+Extension.Position = UDim2.new(0.308566362, -194, 0.5, -194)
+Extension.Size = UDim2.new(0, 36, 0, 388)
+Extension.ZIndex = -10000000
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.933014333, 0, 0.0154639175, 0)
+TextButton.Size = UDim2.new(0, 62, 0, 20)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, 1.01668644, -50)
+TextButton_2.Size = UDim2.new(0, 33, 0, 36)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "<"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+RGB2_2.Name = "RGB2"
+RGB2_2.Parent = TextButton_2
+RGB2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RGB2_2.BorderSizePixel = 0
+RGB2_2.Position = UDim2.new(0, 0, -0.124535456, 0)
+RGB2_2.Size = UDim2.new(0, 33, 0, 4)
+RGB2_2.ZIndex = -100000
+
+-- Scripts:
+
+local function HMFYWD_fake_script() -- Main.GetThumb 
+	local script = Instance.new('LocalScript', Main)
+
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.AvatarBust
+	
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	
+	
+	frame.Avatar.Image = content
+	
+	frame.PlayerName.Text = player.Name
+end
+coroutine.wrap(HMFYWD_fake_script)()
+local function WVRL_fake_script() -- RGB1.LocalScript 
+	local script = Instance.new('LocalScript', RGB1)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(WVRL_fake_script)()
+local function NGQMQ_fake_script() -- RGB2.LocalScript 
+	local script = Instance.new('LocalScript', RGB2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(NGQMQ_fake_script)()
+local function OANJA_fake_script() -- RGB3.LocalScript 
+	local script = Instance.new('LocalScript', RGB3)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(OANJA_fake_script)()
+local function RLNX_fake_script() -- RGB4.LocalScript 
+	local script = Instance.new('LocalScript', RGB4)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(RLNX_fake_script)()
+local function PSWG_fake_script() -- Main.Smooth Drag 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(PSWG_fake_script)()
+local function HYAEF_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function click()
+	
+		script.Parent.Parent:TweenPosition(
+	
+			UDim2.new(0.499, -313,-0.311, -194),
+			"InOut",
+			"Quad",
+			1,
+			false
+	
+		)
+	
+		wait(1)
+	
+		script.Parent.Parent.Visible = false
+	end
+	script.Parent.MouseButton1Click:Connect(click)
+end
+coroutine.wrap(HYAEF_fake_script)()
+local function DCDL_fake_script() -- RGB2_2.LocalScript 
+	local script = Instance.new('LocalScript', RGB2_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(DCDL_fake_script)()
+local function WRLYA_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	function click()
+		script.Parent.Parent.Main.Visible = true
+		script.Parent.Parent.Main:TweenPosition(
+	
+			UDim2.new(0.5, -313,0.5, -194),
+			"InOut",
+			"Quad",
+			1,
+			false
+	
+		)
+	end
+	script.Parent.MouseButton1Click:Connect(click)
+end
+coroutine.wrap(WRLYA_fake_script)()
